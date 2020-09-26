@@ -1,6 +1,6 @@
 #!/bin/bash
 function post(){
-    echo '--- $num'
+    echo '--- '$num
 }
 
 function rand(){
