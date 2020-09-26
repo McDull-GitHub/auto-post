@@ -1,6 +1,6 @@
 #!/bin/bash
 function post(){
-    # $num
+    echo '--- $num'
 }
 
 function rand(){
@@ -8,7 +8,7 @@ function rand(){
 }
 
 num=1000000000
-for i in $(seq 1 100000)
+for i in $(seq 1 1000000)
 do
     rand
     post
